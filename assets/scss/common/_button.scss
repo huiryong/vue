@@ -1,0 +1,34 @@
+.btn {
+  border: 0;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 6px 14px 8px 14px;
+  color: #fff;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  // color(種類)
+  &.btn__primary {
+    background-color: #0d6efd;
+  }
+  &.btn__secondary {
+    background-color: #6c757d;
+  }
+  &.btn__success {
+    background-color: #198754;
+  }
+  &.btn__submit {
+    background: #f36;
+  }
+
+  // size
+
+  &.btn__default {
+    width: 100%;
+  }
+
+  &.btn__large {
+    width: 270px;
+  }
+}

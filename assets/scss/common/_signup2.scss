@@ -1,0 +1,125 @@
+.signup {
+  margin: 0 auto;
+  padding-top: 230px;
+  width: 404px;
+  .signup__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .signup__titleSub {
+    margin-top: 12px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .signup__form {
+    margin-top: 60px;
+    > li {
+      margin-top: 20px;
+      .signup__form__row {
+        .signup__form__row__title {
+          display: flex;
+          justify-content: space-between;
+          .signup__form__row__title__text {
+            color: #000;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 4px;
+          }
+          .signup__form__row__title__forget {
+            > a {
+              color: var(--action-sec, #0c2a92);
+              font-family: Poppins;
+              font-size: 10px;
+              font-weight: 500;
+              text-decoration: none;
+            }
+          }
+        }
+        .signup__form__row__input {
+        }
+        .signup__form__row__check {
+          display: flex;
+          align-items: center;
+          .signup__form__row__check__input {
+            margin-top: 2px;
+          }
+          .signup__form__row__check__text {
+            margin-left: 6px;
+            color: #000;
+            font-family: Poppins;
+            font-size: 9px;
+            font-style: normal;
+            font-weight: 500;
+          }
+        }
+        .signup__form__row__button {
+        }
+      }
+    }
+  }
+}
+
+// .signup {
+//   //div は基本width:100%
+//   //width: 100%;
+//   .signup__contents {
+//     // margin: 0 auto 0 auto
+//     margin: 0 auto;
+//     // width 必須
+//     width: 428px;
+//     height: 700px;
+//     padding-top: 130px;
+//     .signup__contents__title {
+//       color: #0a0a0a;
+//       font-size: 26px;
+//       font-family: Inter;
+//       font-weight: 700;
+//       width: 274px;
+//       margin: 0 auto;
+//     }
+//     .signup__contents__subtitle {
+//       color: #646464;
+//       text-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.07);
+//       font-size: 14px;
+//       font-family: Inter;
+//       width: 274px;
+//       margin: 12px auto 0 auto;
+//     }
+//     .signup__contents__list {
+//       border-top: 1px solid gray;
+//       li {
+//         padding: 20px 12px 20px 12px;
+//         border-bottom: 1px solid gray;
+//         border-left: 1px solid gray;
+//         border-right: 1px solid gray;
+//         word-break: break-all;
+//         &.aaa {
+//           background-color: red;
+//         }
+//         &:first-child {
+//           background-color: blue;
+//         }
+//         &:last-child {
+//           background-color: yellow;
+//         }
+//         &:nth-child(3) {
+//           background-color: green;
+//         }
+//       }
+//     }
+//     .signup__contents__input {
+//       width: 274px;
+//       margin: 12px auto 0 auto;
+//     }
+//     .signup__contents__submit {
+//       width: 308px;
+//       margin: 306px auto 0 auto;
+//       text-align: center;
+//     }
+//   }
+// }
